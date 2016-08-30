@@ -1,12 +1,46 @@
 @import "materialize";
 
+$tagline-color : '#606061';
+
 body{
   .logo {
     width: 100%;
-    img{
-      width:200px;
-      margin: 0 auto;
-    }
+    text-align: center;
 
+    img {
+      margin-top: 50px;
+    }
+  }
+
+  .tagline {
+    h5 {
+      text-align: center;
+      color: $tagline-color;
+    }
+  }
+
+  .quote-box {
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+  }
+
+  .quote-card {
+    margin-top: 15px;
+    width: 95%;
+  }
+
+  .book-free-trial-action {
+    text-align: center;
+  }
+
+  .why-yoga-box {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+
+    p {
+      padding: 10px;
+    }
   }
 }
